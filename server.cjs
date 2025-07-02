@@ -10,7 +10,7 @@ const nodemailer = require('nodemailer');
 
 const app = express();
 const PORT = 3001;
-const MONGO_URI = 'mongodb+srv://mangesh8736:23605861@Newzify.wpqiybc.mongodb.net/';
+const MONGO_URI = 'mongodb://localhost:27017/newzify';
 
 // Middleware
 app.use(cors());

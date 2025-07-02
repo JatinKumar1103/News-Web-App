@@ -26,7 +26,7 @@ function Forms(props) {
 
     try {
       // Send form data to backend server to verify credentials
-      const response = await axios.post('https://news-web-app-backend-re7n.onrender.com/api/login', formData); // Assuming your backend server is running on localhost:3003 and has an endpoint for login
+      const response = await axios.post('http://localhost:3001/api/login', formData); // Assuming your backend server is running on localhost:3003 and has an endpoint for login
       console.log(response.data); 
       if (response.data.success) {
         //storing user data
@@ -60,7 +60,7 @@ function Forms(props) {
 
     try {
       // Send form data to backend server
-      const response = await axios.post('https://news-web-app-backend-re7n.onrender.com/api/register', formData); // Assuming your backend server is running on localhost:3003
+      const response = await axios.post('http://localhost:3001/api/register', formData); // Assuming your backend server is running on localhost:3003
       console.log(response.data); // Log response from backend
       // alert('Registration successful!');
       // Redirect to the success page after successful registration

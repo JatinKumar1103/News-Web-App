@@ -4,7 +4,7 @@ import backgroundImage from '../assets/beams-basic.png'
 import navProfileIcon from '../assets/navProfileIcon.png'
 import {toast} from "react-toastify"
 function Navbar(props) {
-  const [defaultCountry, selectedCountry] = useState('India');
+  const [defaultCountry, selectedCountry] = useState('USA');
   const toggleCountry = (countryCode, countryName) => {
     props.setCountry(countryCode);
     selectedCountry(countryName);

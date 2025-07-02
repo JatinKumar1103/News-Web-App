@@ -29,20 +29,18 @@ const About = () => {
                     <h4 className="mt-4">About the Creator:</h4>
                     <p>NewziFy was created by <span style={{color:'red',fontSize:'bold'}}>Jatin Kumar</span>, a passionate developer dedicated to delivering innovative solutions for staying informed in today's fast-paced world. With a focus on user experience and cutting-edge technology, Mangesh strives to make NewziFy the go-to platform for news enthusiasts everywhere.</p>
                     <div className=" mt-5 d-flex justify-content-around align-items-center mx-auto" style={{ maxWidth: '15rem' }}>
-                        <a href="https://github.com/yadavmangesh07" className="github">
+                        <a href="https://github.com/JatinKumar1103" className="github">
                             <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: 'black',marginInline:'.5rem' }} />
                         </a>
-                        <a href="https://www.linkedin.com/in/mangesh-yadav-65a437237" style={{marginInline:'.5rem' }} className="linkedin">
+                        <a href="https://www.linkedin.com/in/jatin-kumar-142099248" style={{marginInline:'.5rem' }} className="linkedin">
                             <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         </a>
-                        <a href="https://twitter.com/__Mangesh" className="twitter social" style={{marginInline:'.5rem',color:'black' }}>
+                        <a href="https://x.com/ChattaniJatin" className="twitter social" style={{marginInline:'.5rem',color:'black' }}>
                             <FontAwesomeIcon icon={faTwitter} size="2x" />
                         </a>
-                        <a href="https://discord.com/users/OPTIMUS#3832" className="discord social" >
-                            <FontAwesomeIcon icon={faDiscord} size="2x" />
-                        </a>
+                        
                         <div>
-                            <a href="mailto:mangeshyadav8736@gmail.com" className="mail social">
+                            <a href="mailto:kumarjatin1103@gmail.com" className="mail social">
                                 <img src={google} className="" style={{ height: '44px', width: '44px' }} />
                             </a>
                         </div>
